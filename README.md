@@ -17,37 +17,37 @@ Working: Function receives pointers (or references) → dereferences them to acc
 # Algorithms
 Employee Salary Increment Check
 Start
-Input details:
-yearsCompleted → Number of years employee has worked
-hasResearchProjects → Worked on research projects (Yes/No)
-hasNewProjectPipeline → New research project in pipeline (Yes/No)
-profitGenerated → Profit generated in Rs
-currentSalary → Current salary of employee
-Call function checkIncrement() by passing addresses of above values.
-Inside function:
-Initialize conditionsMet = 0
-If yearsCompleted >= 1, increment conditionsMet.
-If hasResearchProjects == true, increment conditionsMet.
-If hasNewProjectPipeline == true, increment conditionsMet.
-If profitGenerated > 100000, increment conditionsMet.
-If conditionsMet >= 3:
-Increase salary by 20%
-Print "Eligible for increment" and new salary
-Else:
-Print "Not eligible for increment" and unchanged salary
-End
+Input details: <br>
+yearsCompleted → Number of years employee has worked <br>
+hasResearchProjects → Worked on research projects (Yes/No) <br>
+hasNewProjectPipeline → New research project in pipeline (Yes/No) <br>
+profitGenerated → Profit generated in Rs <br>
+currentSalary → Current salary of employee <br>
+Call function checkIncrement() by passing addresses of above values. <br>
+Inside function: <br>
+Initialize conditionsMet = 0 <br>
+If yearsCompleted >= 1, increment conditionsMet. <br>
+If hasResearchProjects == true, increment conditionsMet. <br>
+If hasNewProjectPipeline == true, increment conditionsMet. <br>
+If profitGenerated > 100000, increment conditionsMet. <br>
+If conditionsMet >= 3: <br>
+Increase salary by 20% <br>
+Print "Eligible for increment" and new salary <br>
+Else: <br>
+Print "Not eligible for increment" and unchanged salary <br>
+End <br>
 
 
-Reverse a String using Pointers
-Start
-Input a string str1.
-Find length of string → n = str1.length().
-Store base address of string in a pointer: ptr = &str1[0].
-Display message "Reversed String".
-Loop from i = n - 1 to 0:
-Print *(ptr + i)
-After loop ends, reversed string is displayed.
-End
+Reverse a String using Pointers<br>
+Start<br>
+Input a string str1.<br>
+Find length of string → n = str1.length().<br>
+Store base address of string in a pointer: ptr = &str1[0].<br>
+Display message "Reversed String".<br>
+Loop from i = n - 1 to 0:<br>
+Print *(ptr + i)<br>
+After loop ends, reversed string is displayed.<br>
+End<br>
 
 # Conclusion
 This experiment demonstrates the difference between parameter-passing methods in C++.
