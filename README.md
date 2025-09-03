@@ -52,8 +52,3 @@ End
 # Conclusion
 This experiment demonstrates the difference between parameter-passing methods in C++.
 
-📦 Call by Value → Works on copies, originals remain safe.
-🔗 Call by Reference → Works directly on real data, originals are modified.
-✅ Key Insight:
-Use Call by Value for safety (read-only operations).
-Use Call by Reference for in-place updates and efficiency.
